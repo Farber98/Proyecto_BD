@@ -1,0 +1,105 @@
+body{
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+    background-color: #FFF;
+    width: 1200px;
+    margin: 0 auto;
+/*
+    height: 100vh;
+*/
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+}
+.page-header{
+    padding: 10px 0px;
+
+}
+table tr td:last-child a{
+    margin-right: 15px;
+}
+
+#titulo{
+    background-color: #d8d8d8;
+}
+
+#message_returned{
+    background-color: #fcf9f9;
+}
+
+.navbar{
+    margin: 0 -1.35%;
+    padding: 1px 2%;
+}
+
+#listaLinks{
+    border-right: 5px solid #03A9F4;
+}
+#columnaLinks{
+    padding-top: 60px;
+}
+
+.records_content{
+    padding-top: 10px;
+}
+
+input[readonly]
+{
+    font-weight: bold;
+    margin-left: -52px;
+}
+
+input[type=date] {
+    margin-left: 10px;
+}
+
+input[type=number] {
+    margin-left: 10px;
+    width: 150px;
+}
+
+input{
+    margin-left: 10px;
+
+}
+
+.form-check {
+    margin-left: 60px;
+}
+
+#selectorFechaInicio{
+    margin-left: 37px;
+}
+
+#formAgregarAgente{
+    margin-top: 20px;
+    margin-left: 20px;  
+}
+
+#nombreAgenteInfo{
+    margin-left: 100px;
+}
+
+
+.jumbotron {
+    position: relative;
+    background: url(../img/casaGob.jpg);
+    background-size: cover;
+}
+
+.jumbotron > .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(17, 187, 255,0.6);
+    z-index: 1;
+}
+
+.jumbotron > .inner {
+    position: relative;
+    z-index: 2;
+}

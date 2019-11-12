@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    max-width: 360px;
+    margin: 8% auto;
+}
+
+#loginForm{
+    background: #fff;
+    padding: 7% 5%;
+    border-radius: 2px;
+    box-shadow: 0px 3px 12px -3px rgba(0,0,0,0.75);
+}
+
+#logo{
+    height: auto;
+    width: 90%;
+    padding: 0px 10% 10px;
+}
+
+h4{
+    padding-left: 0px;
+}
+
+.btn,h4,.form-group, h5 {
+    font-family: "Roboto", sans-serif;   
+}
+
+hr{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn:hover,.btn:active {
+    background-color: #03a9f4;
+    box-shadow: 0px 0px 11px -4px rgba(0,0,0,0.6);
+}
+
+
+input,
+input:valid {
+    border-color: #0fc60f;
+}
+.form-control:focus {
+  border-color: #FF0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
