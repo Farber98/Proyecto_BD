@@ -1,0 +1,30 @@
+1) Primero vamos la carpeta donde queremos crear nuestro repositorio
+		$git init
+
+2) Agregamos la conexion remota a nuestro repositorio web
+		$git remote add origin https://github.com/Farber98/Proyecto_BD
+
+3) Traemos los archivos de la version requerida por primera vez. (Puede ser V1, V2 ... Vn segun la version)
+		$git pull origin "NombreRama"
+
+4) Para crear una nueva rama
+		$git checkout -b "NombreRama"
+
+5) Para actualizar nuestros repositorios cambiados desde donde estamos parados hacia abajo como arbol (posicion relativa)
+		$git add . 
+
+6) Para preparar un cambio y dejar un mensaje
+		$git commit -m "Lo que se hizo en el cambio"
+
+7) Para enviar el cambio
+		$git push origin "NombreRama"
+
+OBSERVACIONES:
+a) Para cambiar de rama: 
+		$git checkout "NombreRama"
+b) Para acceder a una carpeta: 
+		$cd "NombreCarpeta"
+c) Para volver atras: 
+		$cd ..
+d) Para listar archivos en una carpeta:
+		$ls 
